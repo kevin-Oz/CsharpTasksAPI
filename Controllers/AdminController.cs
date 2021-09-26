@@ -3,14 +3,16 @@ using Microsoft.AspNetCore.Mvc;
 namespace task_app.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class AdminController : Controller
     {
+
         [HttpGet]
         public string Get()
         {
-            return "hello word";
+            return "hello word !!";
         }
-        
+
+      
     }
 }
