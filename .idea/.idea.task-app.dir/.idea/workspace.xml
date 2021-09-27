@@ -7,14 +7,6 @@
   <component name="ChangeListManager">
     <list default="true" id="620b1ff2-beb4-4e8a-8b40-9b17813acb7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.task-app.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.task-app.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/AdminController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/AdminController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/TaskController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/ref/task-app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/ref/task-app.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/task-app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/task-app.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net5.0/task-app.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net5.0/task-app.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/ref/task-app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/ref/task-app.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/task-app.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/task-app.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net5.0/task-app.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net5.0/task-app.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +84,7 @@
       <updated>1632618081577</updated>
       <workItem from="1632618089334" duration="320000" />
       <workItem from="1632618968419" duration="9396000" />
-      <workItem from="1632671844472" duration="16712000" />
+      <workItem from="1632671844472" duration="17725000" />
     </task>
     <servers />
   </component>

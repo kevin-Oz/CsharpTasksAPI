@@ -19,7 +19,6 @@ namespace task_app.Controllers
            _context = context;
        }
        
-       
         // GET
         [HttpGet]
         public async Task<IActionResult> Get()
@@ -48,7 +47,6 @@ namespace task_app.Controllers
             {
                 return BadRequest(e.Message);
             }
-            
         }
 
         //this method only works with task status
