@@ -10,7 +10,7 @@ namespace task_app.Controllers
         [HttpGet]
         public string Get()
         {
-            return "hello word !!";
+            return "Welcome :)";
         }
 
       
