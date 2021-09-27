@@ -33,6 +33,9 @@ namespace task_app
                 options.UseSqlServer(Configuration.GetConnectionString("DevDatabase"));
             });
             services.AddControllers();
+            services.AddCors(options => options.AddPolicy("AllowWebApp", builder =>
+                builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()
+                ));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "task_app", Version = "v1" });
@@ -48,6 +51,8 @@ namespace task_app
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "task_app v1"));
             }
+
+            app.UseCors("AllowWebApp");
 
             app.UseHttpsRedirection();
 
